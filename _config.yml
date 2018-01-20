@@ -1,0 +1,38 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           '/:categories/:year/:month/:day/:title'
+#relative_permalinks: true
+
+# Setup
+title:               Nitin Nagpal
+tagline:             'Tech Adventures'
+description:         'Tech Blogs on DevOps & more'
+url:                 http://blog.nitinnagpal.me
+baseurl:             ''
+paginate:            5
+future:              true
+
+# About/contact
+author:
+  name:              Nitin Nagpal
+  url:               http://nitinnagpal.me
+  email:             nitnagpal@gmail.com
+
+github:
+  repo:              https://github.com/nitnagpal/nitnagpal.github.io
+
+# Pages
+pages:
+  Home: '/'
+  About: '/about'
+  Tags: '/tags'
+
+# Localization Strings
+str_continue_reading: "Continue reading..."
+
+# Custom vars
+version:             1.0.0
+
+# Gems
+plugins: [jekyll-paginate]

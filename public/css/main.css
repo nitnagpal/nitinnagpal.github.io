@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+.sidebar a {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.sidebar {
+  font-size: 0.8rem;
+}
+
+.sidebar-nav-item {
+  letter-spacing: calc(0.08em);
+}
+
+.sidebar .social-icons a {
+  padding-right: 0.75em;
+}
+
+.sidebar .social-icons a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 30em) {
+  width: 14%;
+  margin-left: 3%;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 20px auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: ##c0c0c0;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+// Variables to modify font folders
+$icon-font-path:      "../../fonts/bootstrap";
+$fa-font-path:        "../../fonts/font-awesome";
